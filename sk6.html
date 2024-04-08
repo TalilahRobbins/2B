@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Code</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+  }
+  
+  .container {
+    width: 90%;
+    padding-top: 200px;
+    padding-left: 20px;
+    margin: 50px auto;
+    max-width: 1200px;
+  }
+
+  textarea {
+    width: 100%;
+    left: 5vh;
+    height: 80vh; /* 80% of the viewport height */
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+  
+  }
+
+   /* Styling for the links */
+
+   .nav-container2 {
+    position: absolute;
+    top: 5vh;
+    left: 5vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  /* Styling for the boxes */
+
+  
+  .box {
+    background-color:rgb(0, 0, 0); /* Background color of the box */
+    padding: 5px 10px; /* Padding inside the box */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 10px; /* Spacing between boxes */
+    opacity: 100;
+    font-size: 20px;
+    position: relative;
+  }
+
+  /* Styling for the links */
+  .box a {
+    color: #ffffff; /* Text color of the link */
+    text-decoration: none ; /* Remove underline */
+    font-weight: normal; /* Make text bold */
+    font-family: 'IBM Plex Mono', monospace;
+  }
+  
+</style>
+</head>
+<body>
+
+  <div class="centered-text">
+    <div class="nav-container2">
+      <!-- Each span is wrapped inside a <div> with the "box" class -->
+      <div class="box">
+        <a href="https://talilahrobbins.github.io/landingpage/">BACK</a>
+      </div>
+    </div>
+
+<div class="container">
+  <textarea placeholder="function setup() {
+    createCanvas(windowWidth, windowHeight);
+    background(0, 0, 255); // Set background to blue
+  }
+  
+  function draw() {
+    // Draw black lines whenever the mouse moves
+    stroke(0,0,0); // Set stroke color to black
+    strokeWeight(2); // Set stroke weight
+    line(pmouseX, pmouseY, mouseX, mouseY); // Draw line from previous mouse position to current mouse position
+  }"
+  ></textarea>
+</div>
+
+
+
+</body>
+</html>
