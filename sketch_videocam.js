@@ -14,4 +14,8 @@ function draw() {
     image(capture, mouseX, mouseY, img.width/4, img.height/4);
   }
  else{
-image(capture, width/2, height/2)
+image(capture, width/2, height/2);
+  }
+  filter(POSTERIZE,2);
+
+}
