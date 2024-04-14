@@ -101,4 +101,11 @@ function setup() {
     update() {
       this.x += this.xSpeed;
       this.y += this.ySpeed;
-      if (this.x
+      if (this.x <= this.w / 2 || this.x >= width - this.w / 2) {
+        this.xSpeed *= -1;
+      }
+      if (this.y <= this.h / 2 || this.y >= height - this.h / 2) {
+        this.ySpeed *= -1;
+      }
+    }
+  }
