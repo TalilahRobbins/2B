@@ -1,2 +1,3 @@
 # 2B
 2B Journal
+In the development of this HTML code, I utilized advanced AI tools to enhance productivity and accuracy. ChatGPT provided real-time assistance, helping to refine the logic, troubleshoot issues, and ensure semantic correctness in the code structure. Meanwhile, GitHub Copilot served as an on-the-fly coding partner, suggesting completions and snippets based on context, which greatly accelerated the development process. These AI-powered tools have proven invaluable, not only in speeding up development but also in improving the quality of the code, making it more robust and maintainable. 
