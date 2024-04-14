@@ -38,4 +38,6 @@ function draw() {
     }
   }
   
-  // Increase speed
+  // Increase speed over time
+  speedIncrease += 0.001;
+}
