@@ -23,4 +23,8 @@ function draw() {
       if (brightness < threshold) {
         stroke(0);
         strokeWeight(2);
-        line(x, y, x + stepSize, y +
+        line(x, y, x + stepSize, y + stepSize);
+      }
+    }
+  }
+}
